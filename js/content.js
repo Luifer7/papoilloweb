@@ -4,7 +4,7 @@
  const  cargarPeliculas = async () => {
 
     try {
-        const res = await fetch(`https://apiluisdoleu.herokuapp.com/`);
+        const res = await fetch(`https://apiluisdoleu.herokuapp.com/api/papillo`);
         
             const datos = await res.json();
 
